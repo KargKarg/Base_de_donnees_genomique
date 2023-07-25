@@ -13,3 +13,4 @@ df1 = pd.read_csv('Table/assembly.txt', sep=';')
 
 df2 = pd.read_csv('Table/biosample.txt', sep=';')
 
+"""Télécharger les genomes, CDS et protéines"""
