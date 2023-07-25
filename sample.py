@@ -42,8 +42,7 @@ def donnees(liste_ids: list) -> None:
 
         for sample_id in liste_ids:
 
-            handle = Entrez.esummary(db="biosample", id=sample_id)
-            record = Entrez.read(handle)
+            record = Entrez.read(Entrez.esummary(db="biosample", id=sample_id))
 
             xml_data = record['DocumentSummarySet']['DocumentSummary'][0]['SampleData']
             root = et.ElementTree(et.fromstring(xml_data)).getroot()
@@ -56,8 +55,8 @@ def donnees(liste_ids: list) -> None:
                 if attribute_elem is not None:
                     texte += f"{attribute_elem.text};"
                 else:
-                    texte += ';'
+                    texte += 'None;'
 
-            texte += '\n'
+            texte = texte[:-1] + '\n'
 
         filout.write(texte)

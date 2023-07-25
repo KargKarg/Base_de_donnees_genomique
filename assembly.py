@@ -32,24 +32,22 @@ def donnees(champ: str, limite: int) -> None:
 
     categorie = texte.split(";")[:-1]
     Entrez.email = 'random@randint.com'
-    resultat_brut = Entrez.esearch(db="assembly", term=champ, retmax=limite)
-    resultat = Entrez.read(resultat_brut)
+    resultat = Entrez.read(Entrez.esearch(db="assembly", term=champ, retmax=limite))
 
     for accession in resultat['IdList']:
 
-        esummary_resultat_brut = Entrez.esummary(db="assembly", id=accession)
-        essumary_resultat = Entrez.read(esummary_resultat_brut)
+        esummary_resultat = Entrez.read(Entrez.esummary(db="assembly", id=accession))
 
         for cle in categorie:
             if cle == 'Strain':
                 try:
-                    texte += f"{essumary_resultat['DocumentSummarySet']['DocumentSummary'][0]['Biosource']['InfraspeciesList'][0]['Sub_value']};"
+                    texte += f"{esummary_resultat['DocumentSummarySet']['DocumentSummary'][0]['Biosource']['InfraspeciesList'][0]['Sub_value']};"
                 except IndexError:
-                    texte += ';'
+                    texte += 'None;'
             else:
-                texte += f"{essumary_resultat['DocumentSummarySet']['DocumentSummary'][0][cle]};"
+                texte += f"{esummary_resultat['DocumentSummarySet']['DocumentSummary'][0][cle]};"
 
-        if len(essumary_resultat['DocumentSummarySet']['DocumentSummary'][0]['ExclFromRefSeq']) > 0 and 'metagenome' in essumary_resultat['DocumentSummarySet']['DocumentSummary'][0]['ExclFromRefSeq'][0]:
+        if len(esummary_resultat['DocumentSummarySet']['DocumentSummary'][0]['ExclFromRefSeq']) > 0 and 'metagenome' in esummary_resultat['DocumentSummarySet']['DocumentSummary'][0]['ExclFromRefSeq'][0]:
             texte += 'YES\n'
 
         else:

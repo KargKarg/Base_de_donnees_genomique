@@ -1,86 +1,86 @@
 SampleID;host;sample_type;env_medium;isolation_source;host_disease;geo_loc_name;collection_date
-33668776;;;feces;mouse gut metagenome;;Singapore;2011-12-01;
-33999823;Bos taurus;;;milk;Mastitis;Iraq: Basrah;2021-09-22;
-10880117;Homo sapiens;;na;skin;;na;1974-05-09;
-31888906;;;feces;mouse gut metagenome;;China;2020-11-01;
-30520499;;;cecum;mouse gut metagenome;;not provided;2021-07-20;
-29593165;Mus musculus;;Caecal content;;;Germany: Freising;2008-10-01;
-9580695;Homo sapiens;food;;;;Germany;2010;
-9580648;Homo sapiens;food;;;;Germany;2010;
-28404973;Mus musculus;;;rectum;Staphylococcal Infections;Ireland: Dublin;2015-07-01;
-29024947;;;skin;human skin;;USA;not provided;
-28989215;;;sturter culture Biostart RP 100;;;not provided;not provided;
-27922066;;whole organism;;Cleanroom;;USA;2014-07-23;
-14273569;Mus musculus;metagenomic assembly;fecal material[ENVO_00002003];feces extracted directly from colon;;USA: Knoxville, TN;2017-11-22/2017-12-12;
-22211907;bovine;whole organism;;bovine mastitis;;Switzerland;2013;
-22211908;;whole organism;;raw fermented sausage;;Germany;2013;
-22211906;bovine;whole organism;;bovine mastitis;;Switzerland;2013;
-19114592;lactating dairy cow;cell culture;;milk samples;;Belgium:Liege;2016;
-20525616;Bos taurus;Microbial culture;;Rectal swab;;India: Assam, Guwahati;2019-09-05;
-20525623;Bos taurus;Microbial culture;;Rectal swab;;India: Assam, Guwahati;2019-09-05;
-16966888;;food sample;;raw fermented sausage;;Germany;2010;
-16966890;;food sample;;raw fermented sausage;;Germany;2010;
-16966891;;food sample;;raw fermented sausage;;Germany;2010;
-16966887;;food sample;;raw fermented sausage;;Germany;2010;
-16966889;;food sample;;raw fermented sausage;;Germany;2010;
-19737198;Bos taurus;;Milk;milk;;India: Hessaraghatta suburban village, Bengaluru North taluk, Karnataka;2009-12-15;
-19778568;Mus musculus;;;Mouse faeces;;United Kingdom;2016;
-19735781;Bos taurus;;Milk;milk;;India: Bidar town, Bidar taluk and district, Karnataka;2009-11-05;
-19712756;cow;;milk;;;India: Shivamogga Town, Karnataka;2014-09-10;
-17905388;;;;food;;Thailand: Nan;Not collected;
-18334906;;single cell;;Supermarket;;Germany: Kiel;2015-05-10;
-18092191;;;;environmental effluent;Not collected;South Africa: Pretoria;2018;
-17321485;Lolium arundinaceum;;Soil;;;USA: Hilton, NY;2020-09-01;
-11394264;;cell culture;;chilled raw milk tank;;Germany:Universitaet Bonn Lehr- und Forschungsstation Frankenforst, Koenigswinter;2011-01;
-16540183;Mus musculus;Oral swab;;Oral;;United Kingdom;2012;
-11294475;San Clemente Island Goat;metagenomic assembly;[ENVO:01000312];feces;;USA: Santa Barbara Zoo;2016-06-16;
-15808047;;Cell;;Meju, fermented soybean;;South Korea: Seoul;2019-03;
-14989796;Cakile maritima;Cell culture;;root;;Greece:Crete;not collected;
-12518463;;;;human gut;;United Kingdom;;
-12518457;;;;human gut;;United Kingdom;;
-11843543;;;Human skin;;;missing;missing;
-9714559;;;;Milker's hand;;Brazil;2014-04-22;
-11792358;not applicable;whole organism;;environmental;;USA: North Carolina, Durham;2018-09-01;
-11653955;;;raw ham [FOODON:00001696];raw ham;;Switzerland;2009-11;
-11126832;Mus musculus C3H/Orl;pure culture;;oral swab;;United Kingdom;2012;
-7665175;Homo sapiens;;;pelvis;Pyelonephritis;Kenya;2003-01-01;
-6173251;Bos taurus;;;Herd 324;Mastitis;Canada: Quebec;2007-07-28;
-6173252;Bos taurus;;;Herd 226;Mastitis;Canada: Ontario;2008-02-28;
-6173227;Bos taurus;;;Herd 101;Mastitis;Canada: Alberta;2007-06-09;
-6173230;Bos taurus;;;Herd 106;Mastitis;Canada: Alberta;2007-07-01;
-6173237;Bos taurus;;;Herd 315;Mastitis;Canada: Quebec;2007-03-28;
-6173234;Bos taurus;;;Herd 223;Mastitis;Canada: Ontario;2007-07-10;
-6173239;Bos taurus;;;Herd 318;Mastitis;Canada: Quebec;2007-03-16;
-6173246;Bos taurus;;;Herd 306;Mastitis;Canada: Quebec;2008-02-25;
-6173247;Bos taurus;;;Herd 311;Mastitis;Canada: Quebec;2008-07-30;
-6173249;Bos taurus;;;Herd 314;Mastitis;Canada: Quebec;2008-03-30;
-4326481;Homo sapiens;;;skin;;;1900/1976;
-8827040;;;;;;;;
-6173226;Bos taurus;;;Herd 102;Mastitis;Canada: Alberta;2007-04-03;
-6173232;Bos taurus;;;Herd 328;Mastitis;Canada: Quebec;2007-06-07;
-6173233;Bos taurus;;;Herd 414;Mastitis;Canada: Atlantic;2007-10-26;
-6173228;Bos taurus;;;Herd 102;Mastitis;Canada: Alberta;2007-10-18;
-6173235;Bos taurus;;;Herd 117;Mastitis;Canada: Alberta;2008-06-18;
-6173225;Bos taurus;;;Herd 106;Mastitis;Canada: Alberta;2007-06-19;
-6173250;Bos taurus;;;Herd 318;Mastitis;Canada: Quebec;2008-02-13;
-6173236;Bos taurus;;;Herd 303;Mastitis;Canada: Quebec;2007-02-26;
-6173241;Bos taurus;;;Herd 220;Mastitis;Canada: Ontario;2008-07-02;
-6173229;Bos taurus;;;Herd 108;Mastitis;Canada: Alberta;2007-06-29;
-6173245;Bos taurus;;;Herd 302;Mastitis;Canada: Quebec;2008-06-03;
-6173238;Bos taurus;;;Herd 226;Mastitis;Canada: Ontario;2007-05-25;
-6173248;Bos taurus;;;Herd 314;Mastitis;Canada: Quebec;2008-02-21;
-5978021;Homo sapiens;whole organism;;skin;;United Kingdom: London;1975-01-01;
-8134548;Rhipicephalus microplus;Cell culture;;;;Mexico;2016-07-11;
-6127815;Homo sapiens;whole organism;;skin;;USA: Raleigh;1975;
-4383932;;cell culture;;leaf vegetable;;South Korea;2012;
-2461309;Bovine;;;Bulk milk;;United Kingdom;2013;
-4244269;;Cell culture;;Cheese rind;;USA: Vermont;2015-06;
-4244270;;Cell culture;;Cheese rind;;USA: Vermont;2015-06;
-4244266;;Cell culture;;Cheese rind;;USA: California;2015-06;
-4244267;;Cell culture;;Raw cow's milk;;USA: Vermont;2015-06;
-2472169;Homo sapiens;;;nasal;;;;
-3401363;Oryza sativa;Microbe;;;;India;2013;
-2947182;;;;;;;;
-2850631;;;not applicable;;;not applicable;not applicable;
-2639856;;missing;;Animal faecal matter;;Hong Kong;2012;
-2469673;mouse;;;;;India;2012-12;
+33668776;;;feces;mouse gut metagenome;;Singapore;2011-12-01
+33999823;Bos taurus;;;milk;Mastitis;Iraq: Basrah;2021-09-22
+10880117;Homo sapiens;;na;skin;;na;1974-05-09
+31888906;;;feces;mouse gut metagenome;;China;2020-11-01
+30520499;;;cecum;mouse gut metagenome;;not provided;2021-07-20
+29593165;Mus musculus;;Caecal content;;;Germany: Freising;2008-10-01
+9580695;Homo sapiens;food;;;;Germany;2010
+9580648;Homo sapiens;food;;;;Germany;2010
+28404973;Mus musculus;;;rectum;Staphylococcal Infections;Ireland: Dublin;2015-07-01
+29024947;;;skin;human skin;;USA;not provided
+28989215;;;sturter culture Biostart RP 100;;;not provided;not provided
+27922066;;whole organism;;Cleanroom;;USA;2014-07-23
+14273569;Mus musculus;metagenomic assembly;fecal material[ENVO_00002003];feces extracted directly from colon;;USA: Knoxville, TN;2017-11-22/2017-12-12
+22211907;bovine;whole organism;;bovine mastitis;;Switzerland;2013
+22211908;;whole organism;;raw fermented sausage;;Germany;2013
+22211906;bovine;whole organism;;bovine mastitis;;Switzerland;2013
+19114592;lactating dairy cow;cell culture;;milk samples;;Belgium:Liege;2016
+20525616;Bos taurus;Microbial culture;;Rectal swab;;India: Assam, Guwahati;2019-09-05
+20525623;Bos taurus;Microbial culture;;Rectal swab;;India: Assam, Guwahati;2019-09-05
+16966888;;food sample;;raw fermented sausage;;Germany;2010
+16966890;;food sample;;raw fermented sausage;;Germany;2010
+16966891;;food sample;;raw fermented sausage;;Germany;2010
+16966887;;food sample;;raw fermented sausage;;Germany;2010
+16966889;;food sample;;raw fermented sausage;;Germany;2010
+19737198;Bos taurus;;Milk;milk;;India: Hessaraghatta suburban village, Bengaluru North taluk, Karnataka;2009-12-15
+19778568;Mus musculus;;;Mouse faeces;;United Kingdom;2016
+19735781;Bos taurus;;Milk;milk;;India: Bidar town, Bidar taluk and district, Karnataka;2009-11-05
+19712756;cow;;milk;;;India: Shivamogga Town, Karnataka;2014-09-10
+17905388;;;;food;;Thailand: Nan;Not collected
+18334906;;single cell;;Supermarket;;Germany: Kiel;2015-05-10
+18092191;;;;environmental effluent;Not collected;South Africa: Pretoria;2018
+17321485;Lolium arundinaceum;;Soil;;;USA: Hilton, NY;2020-09-01
+11394264;;cell culture;;chilled raw milk tank;;Germany:Universitaet Bonn Lehr- und Forschungsstation Frankenforst, Koenigswinter;2011-01
+16540183;Mus musculus;Oral swab;;Oral;;United Kingdom;2012
+11294475;San Clemente Island Goat;metagenomic assembly;[ENVO:01000312];feces;;USA: Santa Barbara Zoo;2016-06-16
+15808047;;Cell;;Meju, fermented soybean;;South Korea: Seoul;2019-03
+14989796;Cakile maritima;Cell culture;;root;;Greece:Crete;not collected
+12518463;;;;human gut;;United Kingdom;
+12518457;;;;human gut;;United Kingdom;
+11843543;;;Human skin;;;missing;missing
+9714559;;;;Milker's hand;;Brazil;2014-04-22
+11792358;not applicable;whole organism;;environmental;;USA: North Carolina, Durham;2018-09-01
+11653955;;;raw ham [FOODON:00001696];raw ham;;Switzerland;2009-11
+11126832;Mus musculus C3H/Orl;pure culture;;oral swab;;United Kingdom;2012
+7665175;Homo sapiens;;;pelvis;Pyelonephritis;Kenya;2003-01-01
+6173251;Bos taurus;;;Herd 324;Mastitis;Canada: Quebec;2007-07-28
+6173252;Bos taurus;;;Herd 226;Mastitis;Canada: Ontario;2008-02-28
+6173227;Bos taurus;;;Herd 101;Mastitis;Canada: Alberta;2007-06-09
+6173230;Bos taurus;;;Herd 106;Mastitis;Canada: Alberta;2007-07-01
+6173237;Bos taurus;;;Herd 315;Mastitis;Canada: Quebec;2007-03-28
+6173234;Bos taurus;;;Herd 223;Mastitis;Canada: Ontario;2007-07-10
+6173239;Bos taurus;;;Herd 318;Mastitis;Canada: Quebec;2007-03-16
+6173246;Bos taurus;;;Herd 306;Mastitis;Canada: Quebec;2008-02-25
+6173247;Bos taurus;;;Herd 311;Mastitis;Canada: Quebec;2008-07-30
+6173249;Bos taurus;;;Herd 314;Mastitis;Canada: Quebec;2008-03-30
+4326481;Homo sapiens;;;skin;;;1900/1976
+8827040;;;;;;;
+6173226;Bos taurus;;;Herd 102;Mastitis;Canada: Alberta;2007-04-03
+6173232;Bos taurus;;;Herd 328;Mastitis;Canada: Quebec;2007-06-07
+6173233;Bos taurus;;;Herd 414;Mastitis;Canada: Atlantic;2007-10-26
+6173228;Bos taurus;;;Herd 102;Mastitis;Canada: Alberta;2007-10-18
+6173235;Bos taurus;;;Herd 117;Mastitis;Canada: Alberta;2008-06-18
+6173225;Bos taurus;;;Herd 106;Mastitis;Canada: Alberta;2007-06-19
+6173250;Bos taurus;;;Herd 318;Mastitis;Canada: Quebec;2008-02-13
+6173236;Bos taurus;;;Herd 303;Mastitis;Canada: Quebec;2007-02-26
+6173241;Bos taurus;;;Herd 220;Mastitis;Canada: Ontario;2008-07-02
+6173229;Bos taurus;;;Herd 108;Mastitis;Canada: Alberta;2007-06-29
+6173245;Bos taurus;;;Herd 302;Mastitis;Canada: Quebec;2008-06-03
+6173238;Bos taurus;;;Herd 226;Mastitis;Canada: Ontario;2007-05-25
+6173248;Bos taurus;;;Herd 314;Mastitis;Canada: Quebec;2008-02-21
+5978021;Homo sapiens;whole organism;;skin;;United Kingdom: London;1975-01-01
+8134548;Rhipicephalus microplus;Cell culture;;;;Mexico;2016-07-11
+6127815;Homo sapiens;whole organism;;skin;;USA: Raleigh;1975
+4383932;;cell culture;;leaf vegetable;;South Korea;2012
+2461309;Bovine;;;Bulk milk;;United Kingdom;2013
+4244269;;Cell culture;;Cheese rind;;USA: Vermont;2015-06
+4244270;;Cell culture;;Cheese rind;;USA: Vermont;2015-06
+4244266;;Cell culture;;Cheese rind;;USA: California;2015-06
+4244267;;Cell culture;;Raw cow's milk;;USA: Vermont;2015-06
+2472169;Homo sapiens;;;nasal;;;
+3401363;Oryza sativa;Microbe;;;;India;2013
+2947182;;;;;;;
+2850631;;;not applicable;;;not applicable;not applicable
+2639856;;missing;;Animal faecal matter;;Hong Kong;2012
+2469673;mouse;;;;;India;2012-12
