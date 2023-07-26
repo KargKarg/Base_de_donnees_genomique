@@ -1,7 +1,7 @@
 from Bio import Entrez
 
 
-def donnes(liste_ids):
+def donnees(liste_ids, liste_status):
 
     Entrez.email = 'random@randint.com'
 
@@ -14,26 +14,26 @@ def donnes(liste_ids):
         'ncRNAs'
     ]
 
-    texte = "AssemblyAccession;GenomeID;Locus;Contigs;Genes;CDS;Proteine;tRNAs;rRNAs;ncRNAs\n"
+    texte = "AssemblyAccession;GenomeID;Locus;Genes;CDS;Proteine;tRNAs;rRNAs;ncRNAs\n"
 
-    for accession in liste_ids:
+    for i in range(len(liste_ids)):
 
-        texte += f"{accession};"
+        texte += f"{liste_ids[i]};"
 
-        record = Entrez.read(Entrez.esearch(db="nuccore", term=accession, retmax=10000))
+        if liste_status[i] == 'Complete Genome':
+            record = Entrez.read(Entrez.esearch(db="nuccore", term=f"{liste_ids[i]} chromosome", sort="relevance"))
+        else:
+            record = Entrez.read(Entrez.esearch(db="nuccore", term=f"{liste_ids[i]}", sort="relevance"))
 
         if record['IdList']:
 
             informations = {}
 
             gid = record['IdList'][0]
-            contigs = len(record['IdList']) - 1 ############ a refaire
 
             record = Entrez.efetch(db='nuccore', id=gid, rettype='gb').read()
 
-            locus = record.split()[1][3:]
-
-            texte += f"{gid};{locus};{contigs};"
+            access_id = record.split("ACCESSION")[1].split()[0][3:]
 
             g = record.find('##Genome-Annotation-Data-START##')
             d = record.find('##Genome-Annotation-Data-END##')
@@ -45,6 +45,8 @@ def donnes(liste_ids):
                 except IndexError:
                     pass
 
+            texte += f"{gid};{access_id};"
+
             for colonne in colonnes:
 
                 try:
@@ -52,24 +54,9 @@ def donnes(liste_ids):
                 except KeyError:
                     texte += 'None;'
         else:
-            texte += 'None;None;None;None;None;None;None;None;None;'
+            texte += 'None;None;None;None;None;None;None;None;'
 
         texte = texte[:-1] + '\n'
 
     with open('Table/genomes.txt', 'w') as filout:
         filout.write(texte[:-1])
-
-
-def telecharger(liste_locus, liste_contigs):
-    Entrez.email = 'random@randint.com'
-
-    for i in range(len(liste_locus)):
-
-        if str(liste_locus[i]) != 'nan':
-
-            for j in range(int(liste_contigs[i])):
-
-                if str(liste_contigs) != 'nan':
-                    ############################## A REFAIRE
-                    suivant = str(liste_locus[i])[:-len(str(liste_contigs[j]))] + str(liste_contigs[j])
-                    print(suivant)
