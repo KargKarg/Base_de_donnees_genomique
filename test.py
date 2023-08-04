@@ -1,7 +1,4 @@
-from Bio import Entrez
-
-Entrez.email = 'random@randint.com'
-
-record = Entrez.read(Entrez.esearch(db="nucleotide", term=f"GCF_024422955.1 chromosome", sort="relevance"))
-
-print(record)
+with open('Table/biosample.txt', 'r') as fil:
+    fil.readline()
+    for ligne in fil:
+        print("\'\'".join(ligne.split(";")))

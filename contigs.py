@@ -3,6 +3,8 @@ from Bio import Entrez
 
 def donnees(liste_locus, liste_contigs, liste_status, liste_genomes):
 
+    texte = "GenomeID;Contigs\n"
+
     Entrez.email = 'random@randint.com'
 
     for i in range(len(liste_locus)):
@@ -19,7 +21,12 @@ def donnees(liste_locus, liste_contigs, liste_status, liste_genomes):
                     break
 
                 if liste_status[i] == 'Complete Genome':
-                    print(locus)
+                    texte += f"{liste_genomes[i]};{locus}\n"
                     break
 
                 contigs = locus[:-len(str(j))] + str(j)
+
+                texte += f"{liste_genomes[i]};{contigs}\n"
+
+    with open('Table/contigs.txt', 'w') as filout:
+        filout.write(texte)

@@ -4,7 +4,7 @@ import assembly
 import contigs
 import sample
 import genomes
-
+import database
 
 Entrez.email = 'random@randint.com'
 
@@ -22,8 +22,12 @@ df3 = pd.read_csv('Table/genomes.txt', sep=';', dtype=str)
 
 fusion = pd.merge(df1, df3, on='AssemblyAccession')
 
-contigs.donnees(fusion["Locus"].tolist(), fusion["Contigs"].tolist(), fusion['AssemblyStatus'].tolist(), fusion['GenomeID'].tolist())
+#contigs.donnees(fusion["Locus"].tolist(), fusion["Contigs"].tolist(), fusion['AssemblyStatus'].tolist(), fusion['GenomeID'].tolist())
 
-"""Télécharger les genomes, CDS et protéines.
-    Programmation système pour améliorer les performances.
-    Faire avec le CLI une interface basique."""
+df4 = pd.read_csv('Table/contigs.txt', sep=';', dtype=str)
+
+#database.table()
+#database.donnees()
+
+"""Comparaison de génome.
+    Faire le E/R et le relationnel."""
