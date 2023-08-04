@@ -1,8 +1,19 @@
 import mysql.connector
 
 
-def table():
+def table() -> None:
+    """
 
+        Fonction qui crée les tables SQL permettant de stocker les données issues du scrapping NCBI.
+        Le modèle entité association ainsi que le relationnel sont disponibles sur le fichier "schema.pdf".
+        La connexion à Mysql est réalisée.
+
+        Arguments:
+            - None.
+
+        Retour:
+            - None.
+    """
     login = mysql.connector.connect(user='admin', host='localhost', database='ncbi')
     cursor = login.cursor()
 
@@ -70,7 +81,18 @@ def table():
     login.close()
 
 
-def donnees():
+def donnees() -> None:
+    """
+
+        Fonction qui remplie les tables avec les données récupérées grâce au scrapping de la NCBI.
+        Les tables peuvent être ensuite utilisées.
+
+        Arguments:
+            - None.
+
+        Retour:
+            - None.
+    """
     login = mysql.connector.connect(user='admin', host='localhost', database='ncbi')
     cursor = login.cursor()
 
@@ -140,7 +162,3 @@ def donnees():
 
     cursor.close()
     login.close()
-
-
-table()
-donnees()

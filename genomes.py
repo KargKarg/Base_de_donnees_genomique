@@ -1,8 +1,30 @@
 from Bio import Entrez
 
 
-def donnees(liste_ids, liste_status):
+def donnees(liste_ids: list, liste_status: list) -> None:
+    """
+        Fonction qui télécharge et parse les données de génomes d'une liste de d'IDs.
+        Sauvegarde les résultats sous format .txt avec séparateur ';' afin de pouvoir génèrer une table de ce texte.
 
+        Les colonnes seront:
+
+            - AssemblyAccession
+            - GenomeID
+            - Locus
+            - Genes
+            - CDS
+            - Proteine
+            - tRNAs
+            - rRNAs
+            - ncRNAs
+
+        Arguments:
+            - liste_ids (list): correspond à la liste des GenomeID.
+            - liste_status (list): correspond à la liste des status de chaque génome.
+
+        Retour:
+            - None.
+    """
     Entrez.email = 'random@randint.com'
 
     colonnes = [
