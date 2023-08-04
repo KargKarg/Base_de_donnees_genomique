@@ -9,13 +9,13 @@ Chaque base de données est créée à l'aide de scripts individuels portant leu
 
 
 
-Le projet est structuré de la manière suivante :
-
-**main.py**: Le script principal à exécuter pour automatiser la création des bases de données relationnelles.
-**assembly.py**: Crée la base de données "Assembly" en extrayant et stockant les données relatives aux assemblages génomiques.
-**genome.py**: Crée la base de données "Genome" en extrayant et stockant les informations sur les génomes.
-**contigs.py**: Crée la base de données "Contigs" en extrayant et stockant les données concernant les contigs.
-**sample.py**: Crée la base de données "Biosample" en extrayant et stockant les informations sur les échantillons biologiques.
+Le projet est structuré de la manière suivante :  
+  
+**main.py**: Le script principal à exécuter pour automatiser la création des bases de données relationnelles.  
+**assembly.py**: Crée la base de données "Assembly" en extrayant et stockant les données relatives aux assemblages génomiques.  
+**genome.py**: Crée la base de données "Genome" en extrayant et stockant les informations sur les génomes.  
+**contigs.py**: Crée la base de données "Contigs" en extrayant et stockant les données concernant les contigs.  
+**sample.py**: Crée la base de données "Biosample" en extrayant et stockant les informations sur les échantillons biologiques.  
 **database.py**: Crée les tables grâce à Mysql.
 
 
